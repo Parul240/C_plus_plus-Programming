@@ -19,6 +19,7 @@ cout << x + " " + y;
 
 TASK:
 
+/*
 Write a program which does the following
 
 1. Declare two variables x and y
@@ -26,6 +27,7 @@ Write a program which does the following
 3. Output x and y to the console. Do not forget to add a space in between them.
   
 Your output will be Hello World
+*/
 
 SOLUTION:
 
