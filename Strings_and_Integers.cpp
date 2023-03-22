@@ -25,7 +25,7 @@ using namespace std;
  
 int main () {
   string num1 = "25" ;
-  int num2 = 69;
+  string num2 = "69";
   cout << num1 + num2;
   return 0;
 }
