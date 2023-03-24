@@ -1,4 +1,4 @@
-                                               1. STRINGS
+                                                1. STRINGS
                                                
 
 Strings are used for storing text.
