@@ -137,7 +137,7 @@ int main() {
                                                           
                                                         4. ELSE STATEMENT
                                                         
-The 'else' keyword includes anything which isn't included in the previous conditions.    
+The 'else' keyword includes anything which is not included in the previous conditions.    
 
                                                           
 PROBLEM:
