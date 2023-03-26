@@ -24,6 +24,9 @@ int main() {
     return 0;
 }
 
+Output:
+1 2 3 4 5
+
 In this example, the my_array variable is an array of integers with a size of 5. The array is initialized with the values 1, 2, 3, 4, and 5 using curly braces {}.
 
   
@@ -70,12 +73,67 @@ int main() {
   return 0;
 }
 
-
+Output: Done
 
                                        2. INDEX & PRINTING SPECIFIC ELEMENTS OF AN ARRAY
  
  
-You access an array element by referring to the index number inside square brackets [].
+* To access the elements of an array in C++, you can use the square bracket notation ([]). 
+* The square brackets contain the index of the element you want to access.
+* Here is an example of how to access the elements of an array in C++: 
+
+#include <iostream>
+
+using namespace std;
+
+int main() {
+    int my_array[5] = {1, 2, 3, 4, 5};
+
+    // Accessing elements of the array
+    cout << my_array[0] << endl; // Output: 1
+    cout << my_array[1] << endl; // Output: 2
+    cout << my_array[2] << endl; // Output: 3
+
+    // Changing an element of the array
+    my_array[3] = 10;
+    cout << my_array[3] << endl; // Output: 10
+
+    return 0;
+}
+
+   Output:
+    2
+    3
+    10
+
+  In this example, the my_array variable is an array of integers with a size of 5. The elements of the array are accessed using square brackets ([]). You can also modify an element of the array by assigning a new value to it using the square bracket notation.
+
+* To print all the elements of an array, you can use a loop. Here is an example of how to print all the elements of an array in C++:
+
+
+#include <iostream>
+
+using namespace std;
+
+int main() {
+    int my_array[5] = {1, 2, 3, 4, 5};
+
+    // Printing all the elements of the array
+    for (int i = 0; i < 5; i++) {
+        cout << my_array[i] << " ";
+    }
+    cout << endl;
+
+    return 0;
+}
+
+  Output: 
+  1 2 3 4 5 
+   
+      
+    In this example, a for loop is used to iterate over the elements of the array and print them to the console. The loop runs from 0 to 4 (inclusive) because the array has a size of 5.
+
+
 
                                          
                                                               0    1     2    - index numbers
@@ -107,7 +165,9 @@ int main() {
   cout << num[ 2 ];
   return 0;
 }
-                                       
+
+Output: 
+3
                                        
                                        
                                        
