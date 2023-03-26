@@ -76,7 +76,7 @@ int main() {
                                        
                                        
                                        
-                                       3. CHANGING THE ELEMENTS OF AN ARRAY
+                                             3. CHANGING THE ELEMENTS OF AN ARRAY
                                        
 
 To change the value of a specific element, we can refer to the index number.
@@ -107,3 +107,60 @@ int main() {
 }
                                        
                                        
+                                                   4. DISPLAYING ELEMENTS
+                                                   
+
+
+PROBLEM:
+/*
+Write a program which does the following
+
+- Create a string array for the following values "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", and "Sunday"
+- Output the last two elements of the array on separate lines
+*/
+
+
+SOLUTION:
+
+#include <iostream>
+#include <string>
+using namespace std;
+
+int main() {
+  string week[4] = {"Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"};
+  cout << week[ 5 ] << endl;
+  cout << week[ 6 ];
+  return 0;
+}
+
+
+
+                                                           5. DISPLAYING THE COUNT OF ELEMENTS 
+                                                           
+
+To get the size of an array, you can use the sizeof() operator:
+For e.g.
+
+          int myNumbers[5] = {10, 20, 30, 40, 50};
+          cout < sizeof(myNumbers);
+          Result = 20
+            
+Note->
+* The result show 20 instead of 5, when the array contains 5 elements.
+* It is because the sizeof() operator returns the size of a type in bytes
+* int type is usually 4 bytes, so from the example above, 4 x 5 (4 bytes x 5 elements) = 20 bytes. 
+            
+
+PROBLEM:
+
+/*
+Write a program which does the following
+
+- Create an int array containing the elements - 10, 20, 30, 40, 50, 60
+- Compile and output to the console the accurate count of the number of integer elements in the given array.
+*/
+
+
+SOLUTION:
+
+
