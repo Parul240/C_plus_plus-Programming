@@ -36,7 +36,7 @@ In this example, the my_array variable is an array of integers with a size of 5.
 
 
   
-* C++ also supports multidimensional arrays, which are arrays of arrays. Here's an example of how to create a two-dimensional array of integers with a size of 3x3:
+* C++ also supports multidimensional arrays, which are arrays of arrays. Here is an example of how to create a two-dimensional array of integers with a size of 3x3:
   
   int my_array[3][3] = {
     {1, 2, 3},
