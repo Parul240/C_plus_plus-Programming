@@ -26,6 +26,7 @@ int main() {
 
 In this example, the my_array variable is an array of integers with a size of 5. The array is initialized with the values 1, 2, 3, 4, and 5 using curly braces {}.
 
+  
 * You can also create arrays without initializing them with any values, like this:
 
 +-------------------+
