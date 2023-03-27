@@ -1,3 +1,8 @@
+                                                          CREATING ARRAYS
+
+
+
+
 In C++, you can create arrays using the square bracket notation ([]) to specify the size of the array. Here's an example of how to create an array of integers in C++:
 Arrays are used to store multiple values in a single variable, instead of declaring separate variables for each value.
 
