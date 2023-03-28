@@ -24,6 +24,21 @@ If the condition is true, the code inside the while loop will execute.
 If the condition is false, the while loop will exit and program execution will continue with the statement immediately following the while loop.       
        
 
+  
+* How does a While loop execute?
+     
+  1. Control falls into the while loop.
+  2. The flow jumps to Condition
+  3. Condition is tested.
+     - If the Condition yields true, the flow goes into the Body.
+     - If the Condition yields false, the flow goes outside the loop
+  4. The statements inside the body of the loop get executed.
+  5. Updation takes place.
+  6. Control flows back to Step 2.
+  7. The while loop has ended and the flow has gone outside.
+    
+    
+    
 PROGRAM 1:
 
 /*
