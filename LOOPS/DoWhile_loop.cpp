@@ -21,3 +21,10 @@
     - The block of code to be executed, enclosed in curly braces { }.
     - The keyword while which indicates the end of the loop.
     - The condition to be checked for each iteration of the loop, which is specified inside the parentheses ( ) following the keyword while.                                    
+
+      
+      
+      
+     
+       
+      file:///C:/Users/LENOVO/Downloads/cpp-while-loop-flowchart.webp
