@@ -40,3 +40,27 @@ OUTPUT:
 7
 8
 9
+
+  
+PROGRAM:
+/*
+Table of any number
+*/
+
+SOLUTION:
+
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int n;
+    cout << "Enter The Number is: ";
+    cin >> n;
+
+    for (int i = 1; i <= 10; i = i+1) {
+        cout << n << " x " << i << " = " << n*i << endl;
+    }
+    
+    return 0;
+}
