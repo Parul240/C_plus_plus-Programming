@@ -1,3 +1,8 @@
+                                                                 FOR LOOP
+
+
+
+
 * The for loop is a control structure in C++ that allows you to execute a block of code repeatedly for a specific number of times or until a certain condition is met. 
 
 * The syntax of a for loop is as follows:
