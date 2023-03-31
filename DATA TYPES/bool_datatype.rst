@@ -1,5 +1,5 @@
-                                                        BOOLEANS
-                                                       ----------
+BOOLEAN
+----------
 
 
 
@@ -18,7 +18,7 @@ Note how we are not using any quotes around true and false. Also, they have to b
 */
   
   
-..code :: python
+.. code :: python
 
   SOLUTION:
 
