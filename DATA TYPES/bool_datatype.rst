@@ -19,7 +19,6 @@ Note how we are not using any quotes around true and false. Also, they have to b
   
   
 .. cpp:code::
-
 #include <bits/stdc++.h>
 using namespace std;
 
