@@ -1,14 +1,14 @@
 .. code:: cpp
 
-1    #include <bits/stdc++.h>
-2    using namespace std;
-3
-4    int main() {
-5
-6      cout << __ + _ ; //Replace the _ with correct digits
-7
-8      return 0;
-9    }
+1.    #include <bits/stdc++.h>
+2.    using namespace std;
+3.
+4.    int main() {
+5.
+6.      cout << __ + _ ; //Replace the _ with correct digits
+7.
+8.      return 0;
+9.    }
 
 
 
