@@ -1,0 +1,16 @@
+.. code:: cpp
+
+    #include <iostream>
+
+    using namespace std;
+
+    int main()
+   {
+       cout<<"Hello World";
+
+       return 0;
+   }
+
+
+OUTPUT:
+Hello World
