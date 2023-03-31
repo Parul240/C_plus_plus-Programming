@@ -1,5 +1,5 @@
                                                         BOOLEANS
-
+                                                       ----------
 
 
 
@@ -18,7 +18,8 @@ Note how we are not using any quotes around true and false. Also, they have to b
 */
   
   
-  
+..code :: python
+
   SOLUTION:
 
 #include <bits/stdc++.h>
