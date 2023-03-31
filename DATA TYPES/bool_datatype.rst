@@ -18,7 +18,7 @@ Note how we are not using any quotes around true and false. Also, they have to b
 */
   
   
-.. code::cpp
+.. cpp:code::
 
 #include <bits/stdc++.h>
 using namespace std;
@@ -31,6 +31,7 @@ int main() {
   
   return 0;
 }
+
 # ...
 
 OUTPUT:
