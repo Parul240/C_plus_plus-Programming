@@ -10,8 +10,6 @@
     }
 
 
-Introduction
-------------
 
 Let us now look at some of the nuts and bolts of C++. In particular, the top 4 lines and the bottom 2 lines that we are adding in all of our codes. What do they do?
 
