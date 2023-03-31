@@ -1,14 +1,17 @@
-#include <bits/stdc++.h>
-using namespace std;
+.. code:: cpp
+    #include <bits/stdc++.h>
+    using namespace std;
 
-int main() {
+    int main() {
  
-  cout << __ + _ ; //Replace the _ with correct digits
+      cout << __ + _ ; //Replace the _ with correct digits
 
-  return 0;
-}
+      return 0;
+    }
 
 
+Introduction
+------------
 
 Let us now look at some of the nuts and bolts of C++. In particular, the top 4 lines and the bottom 2 lines that we are adding in all of our codes. What do they do?
 
