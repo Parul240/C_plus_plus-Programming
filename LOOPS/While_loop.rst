@@ -1,4 +1,5 @@
-                                                                 WHILE LOOP
+WHILE LOOP
+----------
 
 
 
@@ -38,21 +39,22 @@ If the condition is false, the while loop will exit and program execution will c
   7. The while loop has ended and the flow has gone outside.
     
     
-    
-PROGRAM 1:
+.. code:: cpp   
 
-/*
-Here's an example of a while loop that counts from 1 to 10:  
-*/
+    PROGRAM 1:
+
+    /*
+    Here's an example of a while loop that counts from 1 to 10:  
+    */
 
 
-SOLUTION:
+    SOLUTION:
 
-int i = 1;
-while (i <= 10) {
-    std::cout << i << " ";
-    i++;
-}
+    int i = 1;
+    while (i <= 10) {
+        std::cout << i << " ";
+        i++;
+    }
 
 
    In this example, the condition is i <= 10. As long as i is less than or equal to 10, the loop will execute. Inside the loop, we print the value of i and increment it by 1 using the i++ statement.
