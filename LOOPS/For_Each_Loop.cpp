@@ -1,4 +1,5 @@
-                                                       FOR EACH LOOP
+FOR EACH LOOP
+-------------
                                                        
 
 
@@ -17,37 +18,39 @@
      Here, the type is the data type of the variableName
    * arrayName is the name of the respective data set over which the loop will iterate,
   
-    
-PROGRAM:
+ 
+.. code:: cpp
 
-/*
-Write a program which does the following
+    PROGRAM:
 
-- Create an integer array num which has the integers - 10, 20, 30, 40, 50, 60, 70, 80
-- Output to the console the following
-      All the elements of the given array in separate lines
-      Use the "for each" loop syntax defined above
-*/
+    /*
+    Write a program which does the following
 
-SOLUTION:
+    - Create an integer array num which has the integers - 10, 20, 30, 40, 50, 60, 70, 80
+    - Output to the console the following
+          All the elements of the given array in separate lines
+          Use the "for each" loop syntax defined above
+    */
 
-#include <iostream>
-using namespace std;
+    SOLUTION:
 
-int main() {
-  int num[8] = {10, 20, 30, 40, 50,60,70,80};
-  for (int i : num ) {
-   cout << i << endl;
-  }
-  return 0;
-} 
+    #include <iostream>
+    using namespace std;
 
-OUTPUT:
-10
-20
-30
-40
-50
-60
-70
-80
+    int main() {
+      int num[8] = {10, 20, 30, 40, 50,60,70,80};
+      for (int i : num ) {
+       cout << i << endl;
+      }
+      return 0;
+    } 
+
+    OUTPUT:
+    10
+    20
+    30
+    40
+    50
+    60
+    70
+    80
