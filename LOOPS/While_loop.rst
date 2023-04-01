@@ -57,7 +57,7 @@ If the condition is false, the while loop will exit and program execution will c
     }
 
 
-   In this example, the condition is i <= 10. As long as i is less than or equal to 10, the loop will execute. Inside the loop, we print the value of i and increment it by 1 using the i++ statement.
+       In this example, the condition is i <= 10. As long as i is less than or equal to 10, the loop will execute. Inside the loop, we print the value of i and   increment it by 1 using the i++ statement.
 
      
 The output of this code will be:
@@ -65,31 +65,32 @@ The output of this code will be:
 
   
   
-  
-PROGRAM 2:
+.. code:: cpp
 
-/*       
-Write a program which does the following
+    PROGRAM 2:
 
-* Declare a variable a and initialise it to 0
-* Use the syntax above to create a loop, output the following to the console
-     - Print a in separate lines as long as it is less than 7.
-     - Increment a by 1 in each iteration.
-*/  
+    /*       
+    Write a program which does the following
 
-SOLUTION:
+    * Declare a variable a and initialise it to 0
+    * Use the syntax above to create a loop, output the following to the console
+         - Print a in separate lines as long as it is less than 7.
+         - Increment a by 1 in each iteration.
+    */  
 
-#include <iostream>
-using namespace std;
+    SOLUTION:
 
-int main() {
-  int a = 0;
-  while (a < 7 ) {
-    cout << a << endl;
-    a++;
-  }
-  return 0;
-}
+    #include <iostream>
+    using namespace std;
+
+    int main() {
+      int a = 0;
+      while (a < 7 ) {
+        cout << a << endl;
+        a++;
+      }
+      return 0;
+    }
 
 Output is:
 0
