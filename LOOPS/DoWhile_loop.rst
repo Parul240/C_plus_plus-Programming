@@ -37,8 +37,7 @@ DO WHILE LOOP
     6. The flow goes back to Step 2.
     7. The do-while loop has been ended and flow has gone outside the loop.  
      
-     
-.. code:: cpp     
+        
 PROGRAM:
 
 /*
@@ -47,7 +46,7 @@ print the value of a
 
 
 SOLUTION:
-
+.. code:: cpp
 #include <iostream>
 using namespace std;
  
