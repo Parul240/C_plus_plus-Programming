@@ -58,7 +58,7 @@ If the condition is false, the while loop will exit and program execution will c
 
 
 
-    The output of this code will be:
+    Output is:
     1 2 3 4 5 6 7 8 9 10
     
     
