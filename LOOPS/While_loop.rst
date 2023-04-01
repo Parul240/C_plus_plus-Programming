@@ -57,11 +57,11 @@ If the condition is false, the while loop will exit and program execution will c
     }
 
 
-       In this example, the condition is i <= 10. As long as i is less than or equal to 10, the loop will execute. Inside the loop, we print the value of i and   increment it by 1 using the i++ statement.
+In this example, the condition is i <= 10. As long as i is less than or equal to 10, the loop will execute. Inside the loop, we print the value of i and increment it by 1 using the i++ statement.
 
      
-The output of this code will be:
-1 2 3 4 5 6 7 8 9 10
+    The output of this code will be:
+    1 2 3 4 5 6 7 8 9 10
 
   
   
@@ -92,14 +92,14 @@ The output of this code will be:
       return 0;
     }
 
-Output is:
-0
-1
-2
-3
-4
-5
-6
+    Output is:
+    0
+    1
+    2
+    3
+    4
+    5
+    6
   
 
 Note: Do not forget to increase the variable used in the condition, otherwise the loop will never end!
