@@ -1,4 +1,5 @@
-                                                                 FOR LOOP
+FOR LOOP
+--------
 
 
 
@@ -20,37 +21,44 @@
            if false, the for loop is terminated
          * The increment/decrement - is executed at the end of each iteration and is used to modify the loop variable.
              
-             
-* Here is an example of a for loop that prints the numbers 0 to 9:  
 
-#include <iostream>
 
-using namespace std;
+.. code:: cpp
 
-int main() {
-        for (int i = 0; i < 10; i++) {
-          std::cout << i << std::endl;
-}
-    return 0;
-}
+    * Here is an example of a for loop that prints the numbers 0 to 9:  
 
-OUTPUT:
-0
-1
-2
-3
-4
-5
-6
-7
-8
-9
+    #include <iostream>
+
+    using namespace std;
+
+    int main() {
+            for (int i = 0; i < 10; i++) {
+              std::cout << i << std::endl;
+    }
+        return 0;
+    }
+
+.. code:: cpp
+
+    OUTPUT:
+    0
+    1
+    2
+    3
+    4
+    5
+    6
+    7
+    8
+    9
 
   
 PROGRAM:
 /*
 Table of any number
 */
+
+.. code:: cpp
 
 SOLUTION:
 
