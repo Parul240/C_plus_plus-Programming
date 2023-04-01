@@ -54,9 +54,9 @@ FOR LOOP
 
   
 PROGRAM:
-**
+/*
 Table of any number
-**
+*/
 
 .. code:: cpp
 
