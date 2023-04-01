@@ -60,37 +60,36 @@ Table of any number
 
 .. code:: cpp
 
-SOLUTION:
+    #include <iostream>
+    using namespace std;
 
-#include <iostream>
-using namespace std;
+    int main()
+    {
+        int n;
+        cout << "Enter The Number is: ";
+        cin >> n;
 
-int main()
-{
-    int n;
-    cout << "Enter The Number is: ";
-    cin >> n;
-
-    for (int i = 1; i <= 10; i = i+1) {
-        cout << n << " x " << i << " = " << n*i << endl;
-    }
+        for (int i = 1; i <= 10; i = i+1) {
+            cout << n << " x " << i << " = " << n*i << endl;
+        }
     
-    return 0;
-}
+        return 0;
+    }
 
+.. code:: cpp
 
-Output is:
+    Output is:
 
-Enter The Number is: 5
-5 x 1 = 5
-5 x 2 = 10
-5 x 3 = 15
-5 x 4 = 20
-5 x 5 = 25
-5 x 6 = 30
-5 x 7 = 35
-5 x 8 = 40
-5 x 9 = 45
-5 x 10 = 50
+    Enter The Number is: 5
+    5 x 1 = 5
+    5 x 2 = 10
+    5 x 3 = 15
+    5 x 4 = 20
+    5 x 5 = 25
+    5 x 6 = 30
+    5 x 7 = 35
+    5 x 8 = 40
+    5 x 9 = 45
+    5 x 10 = 50
   
   
