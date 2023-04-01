@@ -37,31 +37,33 @@ DO WHILE LOOP
     6. The flow goes back to Step 2.
     7. The do-while loop has been ended and flow has gone outside the loop.  
      
-        
-PROGRAM:
-
-/*
-print the value of a
-*/
-
-
-SOLUTION:
 .. code:: cpp
-#include <iostream>
-using namespace std;
- 
-int main () {
-   // Local variable declaration:
-   int a = 10;
 
-   // do loop execution
-   do {
-      cout << "value of a: " << a << endl;
-      a = a + 1;
-   } while( a < 20 );
+    PROGRAM:
+
+    /*
+    print the value of a
+    */
+
+
+    SOLUTION:
+
+
+    #include <iostream>
+    using namespace std;
  
-   return 0;
-}
+    int main () {
+       // Local variable declaration:
+       int a = 10;
+
+       // do loop execution
+       do {
+          cout << "value of a: " << a << endl;
+          a = a + 1;
+       } while( a < 20 );
+ 
+       return 0;
+    }
   
 
 OUTPUT:
