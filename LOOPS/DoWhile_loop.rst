@@ -1,4 +1,5 @@
-                                                                DO WHILE LOOP
+DO WHILE LOOP
+-------------
 
 
 
@@ -37,7 +38,7 @@
     7. The do-while loop has been ended and flow has gone outside the loop.  
      
      
-     
+.. code:: cpp     
 PROGRAM:
 
 /*
