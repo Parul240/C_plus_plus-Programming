@@ -67,6 +67,7 @@ DO WHILE LOOP
   
 
 .. code:: cpp
+
     OUTPUT:
     value of a: 10
     value of a: 11
