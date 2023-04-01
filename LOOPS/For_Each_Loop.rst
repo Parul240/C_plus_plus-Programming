@@ -6,6 +6,7 @@ FOR EACH LOOP
 
 * There is also a "for-each loop", which is used exclusively to loop through elements in an array.
 
+
  +-------------------------------------------------------+                                                       
  |   syntax -   for (type variableName : arrayName) {    |
  |              // code block to be executed             |
@@ -46,7 +47,8 @@ FOR EACH LOOP
     } 
     
 
-    
+.. code:: cpp
+
     OUTPUT:
     10
     20
