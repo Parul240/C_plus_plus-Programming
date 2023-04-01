@@ -46,7 +46,6 @@ FOR EACH LOOP
     } 
     
 
-    .. code:: cpp
     
     OUTPUT:
     10
